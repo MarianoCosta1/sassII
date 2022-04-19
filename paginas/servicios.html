@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../Multimedia/topografia.png" type="image/x-icon">
     <title>Servicios</title>
@@ -13,6 +15,8 @@
 <body>
     <header>
         <nav class="nav">
+
+            <img src="../Multimedia/logoheader.jpg" alt="imagenlogo" class="imagenlogo">
             <ul class="items">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../paginas/quienes_somos.html">Quienes_Somos</a></li>
@@ -26,9 +30,6 @@
 
     <section class="servicios_section">
 
-        <h1 class="servicios_section_titulo">
-            Servicios
-        </h1>
         <Div class="servicios_contenedor">
 
             <div class="servicios_contenedor_contenido1">
@@ -55,13 +56,13 @@
                     Aplicaciones de la geodesia
                 </h3>
                 <ul class="servicios_contenido2_lista">
-                    <li>Levantamientos Cartográficos</li>
-                    <li>Levantamientos Catastrales</li>
-                    <li>Estudios hidrológicos que posteriormente se usan en diferentes ámbitos y con diferentes
-                        propósitos</li>
-                    <li>Análisis espacial de cartografía temática en sistemas de información geográfica</li>
-                    <li>Establecimiento de bases geodésicas para con ellas poder definir límites municipales, regionales
-                        o incluso nacionales</li>
+                    <li class="lista_contenido">Levantamientos Cartográficos.</li>
+                    <li class="lista_contenido" >Levantamientos Catastrales.</li>
+                    <li class="lista_contenido">Estudios hidrológicos que posteriormente se usan en diferentes ámbitos y con diferentes
+                        propósitos.</li>
+                    <li class="lista_contenido">Análisis espacial de cartografía temática en sistemas de información geográfica</li>
+                    <li class="lista_contenido">Establecimiento de bases geodésicas para con ellas poder definir límites municipales, regionales
+                        o incluso nacionales.</li>
 
                 </ul>
             </div>
@@ -79,12 +80,12 @@
                 <h3 class="servicios_contenido4_subtitulo">
                     Servicios ofrecidos.
                 </h3>
-                <ul>
-                    <li>Curvas de nivel</li>
-                    <li>Modelo Digital de Terreno</li>
-                    <li>Planimetria</li>
-                    <li>Estudio Hidrologico</li>
-                    <li>Relevamientos y Replanteos</li>
+                <ul class="lista_contenido4">
+                    <li class="lista_contenido">Curvas de nivel</li>
+                    <li class="lista_contenido">Modelo Digital de Terreno</li>
+                    <li class="lista_contenido">Planimetria</li>
+                    <li class="lista_contenido">Estudio Hidrologico</li>
+                    <li class="lista_contenido">Relevamientos y Replanteos</li>
                 </ul>
             </div>
 
@@ -109,15 +110,15 @@
 
     </section>
     <footer>
-        <h3>
-            Te gusta nuestro servicio?<a href="../paginas/contacto.html">contactanos</a>
+        <h3 class="texto_servicios_footer">
+            Te gusta nuestro servicio?<a href="../paginas/contacto.html" class="a_servicios">contactanos...</a>
 
-            <ul>
-                <li><a href=https://web.whatsapp.com/" target="_blank"><img src="../Multimedia/whatsapp.ico"
+            <ul class="logo_footer">
+                <li class="li_logo_footer"><a href=https://web.whatsapp.com/" target="_blank"><img src="../Multimedia/whatsapp.ico"
                             alt="whatsapp-logo" class="logo1"></a></li>
-                <li><a href=https://www.facebook.com/" target="_blank"><img src="../Multimedia/facebook.ico"
+                <li class="li_logo_footer"><a href=https://www.facebook.com/" target="_blank"><img src="../Multimedia/facebook.ico"
                             alt="facebook-logo" class="logo1"></a></li>
-                <li><a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="../Multimedia/instagram.ico"
+                <li class="li_logo_footer"><a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="../Multimedia/instagram.ico"
                             alt="instafram-logo" class="logo1"></a></li>
 
             </ul>
@@ -127,6 +128,9 @@
             <p class="titulo">Todos los derechos reservados</p>
 
     </Footer>
+    <script src="js/bootstrap.min.js">
+
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .items {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+  }
+  
+  footer {
+    background-image: linear-gradient(to top violet, black);
+    background-size: cover;
+  }
+  
+  
+  .titulo_index {
+    color: #71ff33;
+  }
+  
+  .imagenlogo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+  
+  section {
+    background-image: url(../Multimedia/fondoindex2.jpg);
+  }
+  
+  
+
+@media only screen and (max-width: 468px) {
+    .nav {
+      display: flex;
+      flex-direction: row;
+      background-image: url(../Multimedia/portada.webp);
+      background-size: cover;
+    }
+  
+    .items {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .imagenlogo {
+      display: flex;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .quienes_somos_contenedor {
+      background-image: url(../Multimedia/fondoindex2.jpg);
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      padding: 20px;
+    }
+  
+    .quienes_somos_contenedor {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .quienessomos_section_subtitulo {
+      color: #71ff33;
+      font-family: georgia;
+      font-size: 25px;
+    }
+  
+    .quienessomos_section_contenido {
+      width: max-content;
+      width: 400px;
+      text-align: center;
+    }
+  
+    .quienessomos_section_subtitulo_imagen {
+      width: 400px;
+      margin-top: 20px;
+    }
+  
+    .quienessomos_section_subtitulo_parrafo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_section_contenido2 {
+      width: 500px;
+    }
+    .contenido2_subtitulo {
+      color: #71ff33;
+      display: block;
+    }
+  
+    .quienessomos_contenido2_texto {
+      color: #71ff33;
+      text-align: justify;
+    }
+  
+    .quienessomos_contenido3_subtitulo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_contendio3_texto {
+      color: #71ff33;
+      text-align: justify;
+    }
+    .quienessomos_contenido3_imagen {
+      width: 400px;
+    }
+  
+    .quienessomos_section_contenido4 {
+      width: 400px;
+      text-align: center;
+    }
+  
+    .quienessomos_contenido_texto {
+      width: auto;
+    }
+  
+    .quienessomos_contenido4_subtitulo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_contenido_texto {
+      color: #71ff33;
+    }
+  
+    .subtitulo_quienessomos {
+      color: #fff;
+    }
+  
+    footer {
+      padding: 20px;
+    }
+    .titulo {
+      color: #fff;
+    }
+  }
+  
+  @media only screen and (min-width: 468px) and (max-width: 1023px) {
+    header {
+      display: block;
+      background-image: url(../Multimedia/portada.webp);
+      background-size: cover;
+      width: 100%;
+    }
+    .nav {
+      display: block;
+      
+    }
+  
+    .items {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .imagenlogo {
+      display: flex;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .quienes_somos_contenedor {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 30px;
+      width: 100%;
+      background-image: url(../Multimedia/fondoindex2.jpg);
+      background-size: cover;
+    }
+  
+    .quienessomos_section_contenido {
+      width: 100%;
+    }
+  
+    .quienessomos_section_subtitulo {
+      color: #71ff33;
+      font-family: georgia;
+      font-size: 25px;
+    }
+  
+    .quienessomos_section_subtitulo_imagen {
+      width: 400px;
+    }
+  
+    .quienessomos_section_subtitulo_imagen {
+      width: 300px;
+    }
+  
+    .quienessomos_section_subtitulo_parrafo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_section_contenido2 {
+      width: 500px;
+    }
+    .contenido2_subtitulo {
+      color: #71ff33;
+      display: block;
+    }
+  
+    .quienessomos_contenido2_texto {
+      color: #71ff33;
+      text-align: justify;
+    }
+  
+    .quienessomos_contenido3_subtitulo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_contendio3_texto {
+      color: #71ff33;
+      text-align: justify;
+    }
+  
+    .quienessomos_section_contenido4 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .quienessomos_contenido_texto {
+      width: auto;
+    }
+  
+    .quienessomos_contenido4_subtitulo {
+      color: #71ff33;
+    }
+  
+    .quienessomos_contenido4_video {
+      width: 500px;
+    }
+  
+    .quienessomos_contenido_texto {
+      color: #71ff33;
+    }
+  
+    .subtitulo_quienessomos {
+      color: #fff;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    nav {
+      background-size: cover;
+      display: block;
+      background-image: url(../Multimedia/portada.webp);
+      background-size: cover;
+    }
+  
+    .items {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .quienes_somos_contenedor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      background-image: url(../Multimedia/fondoindex2.jpg);
+    }
+  
+    .quienessomos_section_contenido {
+      display: block;
+  
+      text-align: center;
+      width: 100%;
+    }
+  
+    .quienessomos_section_subtitulo {
+      color: #71ff33;
+      font-size: 30px;
+      font-family: georgia;
+    }
+  
+    .quienessomos_section_subtitulo_imagen {
+      width: 500px;
+    }
+  
+    .quienessomos_section_subtitulo_parrafo {
+      color: #71ff33;
+      text-align: center;
+    }
+  
+    .quienessomos_section_contenido {
+      display: block;
+      width: 100%;
+    }
+    .contenido2_subtitulo {
+      color: #71ff33;
+      text-align: center;
+    }
+    .quienessomos_contenido2_texto {
+      color: #71ff33;
+      text-align: justify;
+    }
+  
+    .quienessomos_section_contenido {
+      display: block;
+    }
+  
+    .quienessomos_contenido3_subtitulo {
+      color: #71ff33;
+      font-family: georgia;
+    }
+  
+    .quienessomos_contendio3_texto {
+      color: #71ff33;
+      font-family: georgia;
+      text-align: justify;
+    }
+  
+    .quienessomos_contenido3_imagen {
+      width: 500px;
+    }
+  
+    .quienessomos_contenido4_subtitulo {
+      text-align: center;
+      color: #71ff33;
+      margin-top: 20px;
+      font-family: georgia;
+    }
+    .quienessomos_contenido_texto {
+      color: #71ff33;
+      text-align: center;
+      font-family: georgia;
+    }
+  
+    .quienessomos_section_contenido4 {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .quienessomos_contenido4_video {
+      width: 500px;
+      align-items: center;
+    }
+  
+    .subtitulo_quienessomos {
+      color: #fff;
+    }
+    .titulo {
+      color: #fff;
+    }
+    .footer {
+      display: block;
+    }
+    .items_footer_quieessomos {
+      display: flex;
+      flex-direction: column;
+    }
+  }

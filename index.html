@@ -8,79 +8,108 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" href="./Multimedia/logoheader.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Home</title>
 
 </head>
 
-<body class=" body_index container-fluid">
+<body>
+  <header>
 
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Proyecto/paginas/quienes_somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Proyecto/paginas/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Proyecto/paginas/proyectos.html">Proyecto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Proyecto/paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
 
-
-  <header class="row">
-    <nav class="nav col-lg-12 col-md-12 col-sm-12">
-      <img src="./Multimedia/logoheader.jpg" alt="imagenlogo" class="imagenlogo">
-      <ul class="items">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./paginas/quienes_somos.html">Quienes_Somos</a></li>
-        <li><a href="./paginas/servicios.html">Servicios</a></li>
-        <li><a href="./paginas/proyectos.html">Proyectos</a></li>
-        <li><a href="./paginas/contacto.html">Contacto</a></li>
-      </ul>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 
 
-  <section class="row section ">
+  <section class="section">
 
-    <div class="contenedor_titulo col-lg-4 col-md-4 col-sm-12">
+    <div class="contenedor_titulo">
       <h1 class="titulo_index">
         Topografia y Servicios
       </h1>
     </div>
 
-    <div class="contenedor_subtitulo col-lg-8 col-md-6 col-sm-12">
+    <div class="contenedor_subtitulo">
       <h2 class="subtitulo_index">
         Nuestros Servicios
       </h2>
     </div>
+    <div class="div_contenido">
+      <div class="contenedorgeneral1">
+        <div class="contenedor_relevamiento">
+          <h3 class="relevamiento_index">
+            Relevamiento
+          </h3>
+          <img src="multimedia/Relevamiento.jpeg" alt="imagen de relevamiento"
+            class="contenedor_fotoderelevamiento img-rounded">
+          <p class="texto_relevamiento">
+            Relevamientos con el mejor instrumental.
+          </p>
+        </div>
 
-    <div class="contenedor_relevamiento col-lg-6 col-md-6 col-sm-12">
-      <h3 class="relevamiento_index">
-        Relevamiento
-      </h3>
-      <img src="multimedia/Relevamiento.jpeg" alt="imagen de relevamiento" class="contenedor_fotoderelevamiento img-rounded">
-      <p class="texto_relevamiento">
-        Relevamientos con el mejor instrumental.
-      </p>
-    </div>
+        <div class="contenedor_replanteo">
+          <h2 class="contenedor_subtitulo_replanteo">Replanteo</h2>
+          <img src="multimedia/replanteo.jpg" alt="imagen de replanteo" class="contenedor_foto_replanteo img-rounded">
+          <p class="contenedor_textorelevamientourbano">
+            Replanteos urbanos y rurales para todo tipo de obras y control de movimiento de suelo
+          </p>
+        </div>
+      </div>
 
+      <div class="contenedorgeneral2">
 
+        <div class="contenedor_inspeccion">
+          <h2 class="contenedor_subtitulo_inspeccion">inspeccion</h2>
+          <img src="multimedia/deslinde.jpg" alt="imagen deslinde" class="contenedor_foto_inspeccion img-rounder">
+          <p class="contenedor_textoinspeccion">Inspección de obra. Nos involucramos mano a mano con el topografo
+            encargado asegurando la calidad
+            del trabajo
+            a realizar.</p>
+        </div>
 
-    <div class="contenedor_replanteo col-lg-6 col-md-6 col-sm-12">
-      <h2 class="contenedor_subtitulo_replanteo">Replanteo</h2>
-      <img src="multimedia/replanteo.jpg" alt="imagen de replanteo" class="contenedor_foto_replanteo img-rounded">
-      <p class="contenedor_textorelevamientourbano">
-        Replanteos urbanos y rurales para todo tipo de obras y control de movimiento de suelo
-      </p>
-    </div>
-
-    <div class="contenedor_inspeccion col-lg-6 col-md-6 col-sm-12">
-      <h2 class="contenedor_subtitulo_inspeccion">inspeccion</h2>
-      <img src="multimedia/deslinde.jpg" alt="imagen deslinde" class="contenedor_foto_inspeccion img-rounder">
-      <p class="contenedor_textoinspeccion">Inspección de obra. Nos involucramos mano a mano con el topografo
-        encargado asegurando la calidad
-        del trabajo
-        a realizar.</p>
-    </div>
-
-    <div class="index_video col-lg-6 col-md-4 col-sm-12">
-      <h2 class="contendedor_subtitulo_drone">Drone</h2>
-      <video controls class="video_index">
-        <source src="multimedia/video.mp4" type="video/mp4" alt="video_de_drone">
-      </video>
-      <p class="contenedortexto_video">Levantamientos urbanos, semiurbanos o rurales, empleado fotogrametria aerea
-        mediante drones o
-        UAVs.</p>
+        <div class="index_video">
+          <h2 class="contendedor_subtitulo_drone">Drone</h2>
+          <video controls class="video_index">
+            <source src="multimedia/video.mp4" type="video/mp4" alt="video_de_drone">
+          </video>
+          <p class="contenedortexto_video">Levantamientos urbanos, semiurbanos o rurales, empleado fotogrametria aerea
+            mediante drones o
+            UAVs.</p>
+        </div>
+      </div>
     </div>
 
 
@@ -88,8 +117,8 @@
 
 
 
-  <Footer class="row footer ">
-    <h3 class="texto_footer col-lg-12 col-md-12 col-sm-12 ">
+  <Footer class="footer ">
+    <h3 class="texto_footer">
       Seguinos en nuestras Redes!!</h3>
     <ul>
       <li><a href="https://web.whatsapp.com/" target="_blank"><img src="multimedia/Whatsapp.ico" alt="whatsapp-logo"
@@ -105,7 +134,7 @@
     </ul>
 
     <a href="">contacto</a>
-    <p class="titulo_footer col-lg-12 col-md-12 col-sm-12">Todos los derechos reservados</p>
+    <p class="titulo_footer">Todos los derechos reservados</p>
   </Footer>
 
 

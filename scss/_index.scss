@@ -1,59 +1,42 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .items {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  a:hover {
-    color: blue;
-  }
-  
-  footer {
-    background-image: linear-gradient(to top violet, black);
-    background-size: cover;
-  }
-  
-  
-  .titulo_index {
-    color: hsla(303, 100%, 60%, 0.774);
-  }
-  
-  .imagenlogo {
-    display: flex;
-    width: 100px;
-    height: 100px;
-  }
-  
-  section {
-    background-image: url(../Multimedia/fondoindex2.jpg);
-  }
-  
-  @media only screen and (max-width: 468px) {
-    .nav {
-      display: block;
-      background-image: url(../Multimedia/portada.webp);
-      background-size: cover;
+@media only screen and (max-width: 468px) {
+    header {
+      background-image: url(../Multimedia/fondonav.jpg);
+      height: 75px;
     }
-      
   
-  .contenedor_subtitulo{
-    width:max-content;
-    display: block;
-  }  
+    nav {
+      width: 100%;
+      display: block;
+      height: 75px;
+    }
+  
+    .section {
+      text-align: center;
+      width: 100%;
+    }
+    .contenedor {
+      margin-top: 75px;
+      text-align: center;
+      padding: 5px;
+    }
+  
+    .contenedor_titulo {
+      display: block;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .titulo_index {
+      font-size: 30px;
+      text-align: center;
+      color: #71ff33;
+    }
+  
+    .contenedor_subtitulo {
+      display: block;
+      text-align: center;
+    }
   
     .imagenlogo {
       display: flex;
@@ -61,57 +44,16 @@
       height: 100px;
     }
   
-  
-    .items {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .contenedor_titulo{
-      text-align: center;
+    .section {
       display: block;
-      align-items: center;
-      width: min-content;
-    }
-  
-  header { display: block;
-  width: 100%;
-  }
-  body {
-      display: block;
-      width: min-content;
-  }
-  
-  .section {
-            display: block;
-           width: 100%;
-           width: min-content;
-  }
-    
-  
-    .titulo_index {
-      font-size: 30px;
-      width: max-content;
-      
-      text-align: center;
-      color: #71ff33;
-      text-align: center;
-    }
-  
-    .subtitulo_index {
-      animation-name: aparecer;
-      animation-delay: 5s;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
+      width: 100%;
+      background-image: url(../Multimedia/fondoindex2.jpg);
     }
   
     .contenedor_relevamiento {
       text-align: center;
-      max-width: min-content;
       display: block;
     }
-  
     .relevamiento_index {
       font-size: 25px;
       color: #71ff33;
@@ -120,52 +62,23 @@
       margin-top: 10px;
     }
   
-    .subtitulo_index {
-      animation-name: aparecer;
-      animation-delay: 1s;
-    }
-  
-    @keyframes aparecer {
-      0% {
-        opacity: 100%;
-      }
-      25% {
-        opacity: 75%;
-      }
-      50% {
-        opacity: 50%;
-      }
-      75% {
-        opacity: 25%;
-      }
-      100% {
-        opacity: 0%;
-      }
-    }
-  
     .texto_relevamiento {
       color: #71ff33;
     }
     .contenedor_replanteo {
+      align-items: center;
       text-align: center;
-      max-width: min-content;
       display: block;
     }
-  
     .contenedor_subtitulo_replanteo {
       font-size: 5px;
       color: #71ff33;
     }
-  
     .contenedor_textorelevamientourbano {
       color: #71ff33;
     }
-  
-  
-  
     .contenedor_inspeccion {
       text-align: center;
-      max-width: min-content;
       display: block;
     }
     .contenedor_subtitulo_inspeccion {
@@ -176,111 +89,141 @@
       color: #71ff33;
       display: block;
     }
-  
+    .contenedor_foto_inspeccion {
+      width: 400px;
+    }
     .index_video {
       text-align: center;
-      width: 200px;
-      max-width: min-content;
       display: block;
     }
-  
     .video_index {
-      width: 300px;
+      width: 400px;
     }
-  
     .contenedortexto_video {
       color: #71ff33;
+      display: inline-block;
     }
-  
     .titulo_footer {
       color: #fff;
     }
     .texto_footer {
       color: #fff;
     }
-  
     .contenedor_fotoderelevamiento {
-      width: 300px;
+      width: 400px;
     }
-  
     .contenedor_foto_replanteo {
-      width: 300px;
+      width: 400px;
     }
   
     .subtitulo_index {
       font-size: 25px;
-  
       color: #71ff33;
     }
-  
     .contenedor_subtitulo_replanteo {
       font-size: 25px;
       color: #71ff33;
     }
-  
     .contenedor_foto {
-      width: 300px;
+      width: 400px;
     }
     .contendedor_subtitulo_drone {
-     color: #71ff33;
+      color: #71ff33;
     }
-  
     footer {
+      width: 100%;
       background-image: radial-gradient(violet, black);
       background-size: 100%;
       text-align: center;
     }
-  
     .logo1 {
       width: 40px;
     }
   }
   
-  @media only screen and (min-width: 468px) and (max-width: 1023px) {
-    .nav {
+  @media only screen and (min-width: 469px) and (max-width: 1023px) {
+    header {
+      background-image: url(../Multimedia//fondonav.jpg);
+      height: auto;
+      height: 100px;
       display: block;
-      background-image: url(../Multimedia/portada.webp);
-      background-size: cover;
     }
   
-    ul {
-      margin-top: 30px;
+    body {
+      display: block;
+      width: 100%;
     }
+    .navbar {
+      display: block;
+      width: 80%;
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 90px;
+    }
+  
+    .divnavbar {
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .div_contenido {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .contenedor_foto_inspeccion{
+      width: 300px;
+    }
+    .contenedor_fotoderelevamiento{
+      width: 400px;
+    }
+  
+    .video_index{
+      width: 400px;
+    }
+  
+    .contenedorgeneral1{ 
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 40px;
+      
+      
+    }
+  
+    .contenedorgeneral2{
+      display: flex;
+      flex-direction: row-reverse;
+  
+      gap: 40px;
+    }
+  
+    
+  
   
     .imagenlogo {
       display: inline block;
     }
-  
     .section {
       gap: 10px;
       padding: 10px;
     }
-  
-    section {
-      text-align: center;
-    }
-  
-    header {
-      background-image: url(../Multimedia/index.jpg);
-      background-size: cover;
+    .contenedor {
+      display: flex;
     }
   
     .contenedor_index {
       padding: 30px;
     }
-  
     .titulo_index {
       font-family: georia;
       font-size: 30px;
       text-align: center;
       margin-top: 20px;
     }
-  
     .contenedor_titulo {
       width: min-content;
-      text-align: center;
+      width: 40%;
     }
-  
     .subtitulo_index {
       font-size: 20px;
       font-family: georgia;
@@ -288,30 +231,26 @@
       margin-top: 25px;
       color: #71ff33;
       font-size: 20px;
-      width: max-content;
+      text-align: end;
+      width: 75%;
     }
-  
     .contenedor_relevamiento {
       display: block;
       max-width: min-content;
       text-align: center;
     }
-  
     .contenedor_replanteo {
       display: block;
       max-width: min-content;
       text-align: center;
     }
-  
     .relevamiento_index {
       font-size: 25px;
       color: #71ff33;
     }
-  
     .contenedor_fotoderelevamiento {
       width: 300px;
     }
-  
     .contenedor_replanteo {
       display: block;
       max-width: min-content;
@@ -323,20 +262,17 @@
     .contenedor_subtitulo_replanteo {
       color: #71ff33;
     }
-  
     .contenedor_textorelevamientourbano {
       color: #71ff33;
     }
     .texto_relevamiento {
       color: #71ff33;
     }
-  
     .contenedor_inspeccion {
       display: block;
       width: min-content;
       text-align: center;
     }
-  
     .contenedor_subtitulo_inspeccion {
       color: #71ff33;
     }
@@ -350,11 +286,9 @@
       font-size: 25px;
       font-family: Georgia;
     }
-  
     .contenedor_foto_inspeccion {
       width: 300px;
     }
-  
     .index_video {
       text-align: center;
       width: min-content;
@@ -372,7 +306,6 @@
     .contenedortexto_video {
       color: #71ff33;
     }
-  
     .footer {
       display: flex;
       display: block;
@@ -389,66 +322,108 @@
       background-size: cover;
       text-align: center;
     }
-  
     .logo1 {
       width: 50px;
     }
   }
   
   @media only screen and (min-width: 1024px) {
-    .nav {
+    header {
+      background-image: url(../Multimedia//fondonav.jpg);
+      height: auto;
+      height: 100px;
       display: block;
-      background-image: url(../Multimedia/portada.webp);
-      background-size: cover;
     }
   
-    a {
-      font-size: 20px;
+    body {
+      display: block;
+      width: 100%;
     }
-    ul {
-      margin-top: 30px;
+    .navbar {
+      color: #fff;
+      display: block;
+      width: 80%;
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 90px;
+    }
+  
+    .divnavbar {
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .div_contenido {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .contenedor_foto_inspeccion{
+      width: 500px;
+    }
+    .contenedor_fotoderelevamiento{
+      width: 400px;
+    }
+  
+    .video_index{
+      width: 400px;
+    }
+  
+    .contenedorgeneral1{ 
       display: flex;
       flex-direction: row-reverse;
+      gap: 40px;
+      
+      
     }
   
+    .contenedorgeneral2{
+      display: flex;
+      flex-direction: row-reverse;
+  
+      gap: 40px;
+    }
+  
+    .imagenlogo {
+      display: inline block;
+    }
+    .section {
+      gap: 10px;
+      padding: 10px;
+    }
+    .contenedor {
+      display: flex;
+    }
+  
+    .contenedor_index {
+      padding: 30px;
+    }
     .titulo_index {
       font-family: georia;
       font-size: 40px;
       text-align: center;
-      justify-content: center;
-      margin-top: 100px;
-      margin-left: 100px;
-      color: #71ff33;
+      margin-top: 20px;
     }
-    .texto_relevamiento {
-      color: #71ff33;
-    }
-  
-    .section {
-      gap: 100px;
-     background-image: url(../Multimedia/fondoindex2.jpg);
-    }
-  
     .contenedor_titulo {
       width: min-content;
+      width: 40%;
     }
-  
-    .contenedor_subtitulo {
-      display: inline-block;
-      display: flex;
-      flex-direction: row-reverse;
-    }
-  
     .subtitulo_index {
-      color: #71ff33;
-      font-size: 27px;
+      
       font-family: georgia;
-      text-align: center;
-      width: max-content;
-      margin-right: 100px;
+      display: block;
+      margin-top: 25px;
+      color: #71ff33;
+      font-size: 30px;
+      text-align: end;
+      width: 75%;
     }
-  
     .contenedor_relevamiento {
+      display: block;
+      max-width: min-content;
+      text-align: center;
+    }
+    .contenedor_replanteo {
       display: block;
       max-width: min-content;
       text-align: center;
@@ -457,83 +432,85 @@
       font-size: 25px;
       color: #71ff33;
     }
-  
     .contenedor_fotoderelevamiento {
-      width: 400px;
+      width: 500px;
     }
-  
     .contenedor_replanteo {
       display: block;
       max-width: min-content;
       text-align: center;
     }
+    .contenedor_foto_replanteo {
+      width: 500px;
+    }
     .contenedor_subtitulo_replanteo {
       color: #71ff33;
-    }
-    .contenedor_foto_replanteo {
-      width: 400px;
     }
     .contenedor_textorelevamientourbano {
       color: #71ff33;
     }
-  
+    .texto_relevamiento {
+      color: #71ff33;
+    }
     .contenedor_inspeccion {
       display: block;
       width: min-content;
       text-align: center;
     }
-  
-    .contenedor_foto_inspeccion {
-      width: 400px;
-    }
     .contenedor_subtitulo_inspeccion {
       color: #71ff33;
     }
+    .contenedor_textoinspeccion {
+      color: #71ff33;
+    }
     .contenedor_foto {
-      width: 400px;
+      width: 500px;
     }
     .contenedor_subtitulo_inspeccion {
       font-size: 25px;
       font-family: Georgia;
     }
-  
-    .contenedor_textoinspeccion {
-      color: #71ff33;
+    .contenedor_foto_inspeccion {
+      width: 500px;
     }
-  
     .index_video {
       text-align: center;
       width: min-content;
     }
+    .contendedor_subtitulo_drone {
+      color: #71ff33;
+    }
     .video_index {
-      width: 400px;
+      width: 500px;
     }
     .contenedortexto_video {
       font-family: georgia;
       font: 20px;
     }
-    .contendedor_subtitulo_drone {
-      color: #71ff33;
-    }
     .contenedortexto_video {
       color: #71ff33;
     }
-  
+    .footer {
+      display: flex;
+      display: block;
+      width: 100%;
+    }
+    .titulo_footer {
+      color: #fff;
+      display: inline-block;
+    }
+    .texto_footer {
+      color: #fff;
+      display: inline-block;
+    }
     footer {
       background-image: radial-gradient(violet, black);
       background-size: 100%;
       background-size: cover;
       text-align: center;
     }
-  
     .logo1 {
       width: 50px;
     }
-  
-    .titulo_footer {
-      color: #fff;
-    }
-    .texto_footer {
-      color: #fff;
-    }
   }
+  

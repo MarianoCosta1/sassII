@@ -4,12 +4,6 @@
     box-sizing: border-box;
   }
   
-  .items {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-  }
-  
   li {
     list-style: none;
   }
@@ -18,6 +12,7 @@
     color: #fff;
     text-decoration: none;
   }
+  
   a:hover {
     color: blue;
   }
@@ -26,7 +21,6 @@
     background-image: linear-gradient(to top violet, black);
     background-size: cover;
   }
-  
   
   .titulo_index {
     color: #71ff33;
@@ -40,34 +34,52 @@
   
   section {
     background-image: url(../Multimedia/fondoindex2.jpg);
+    background-size: cover;
+    width: 100%;
   }
-
-
-@media only screen and (max-width: 468px) {
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  
+  footer {
+    background-image: linear-gradient(to top violet, black);
+    background-size: cover;
+  }
+  
+  .imagenlogo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+  
+  @media only screen and (max-width: 468px) {
     .nav {
       display: flex;
-      flex-direction: row;
       background-image: url(../Multimedia/portada.webp);
-      background-size: cover;
+      background-size: 100%;
     }
-  
     .items {
-      display: flex;
-      flex-direction: column;
+      display: block;
     }
-  
     .imagenlogo {
       display: flex;
       width: 100px;
       height: 100px;
     }
-  
     .servicios_section {
       width: 100%;
-      padding: 20PX;
       background-image: url(../Multimedia/fondoindex2.jpg);
     }
-  
     .servicios_contenedor_contenido1 {
       width: 100%;
       display: block;
@@ -78,57 +90,47 @@
       text-align: center;
       align-items: center;
     }
-  
     .servicios_contenido1_texto {
       margin-top: 20px;
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido1_subtitulo2 {
       font-family: Georgia;
       align-items: center;
       text-align: center;
       color: #71ff33;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
       font-family: Georgia;
     }
-  
     .servicios_contenido1_imagen {
       width: 350px;
       align-items: center;
       text-align: center;
     }
-  
     .servicios_contenido2 {
       width: 100%;
     }
-  
     .servicios_contenido2_subtitulo {
       color: #71ff33;
       font-family: georgia;
       text-align: center;
       margin-top: 30px;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
     }
-  
     .servicios_contenido2_lista {
       color: #71ff33;
     }
-  
     li {
       list-style: circle;
     }
-  
     .servicios_contenido3 {
       width: 100%;
     }
@@ -136,7 +138,6 @@
       color: #71ff33;
       text-align: center;
     }
-  
     .servicios_contenido3_imagen {
       width: 350px;
       text-align: center;
@@ -147,7 +148,6 @@
       font-family: georgia;
       padding-top: 20px;
     }
-  
     .servicios_contenido4 {
       width: 100%;
     }
@@ -160,7 +160,6 @@
       color: #71ff33;
       font-family: georiga;
     }
-  
     .servicio_contenido5 {
       width: 100%;
     }
@@ -169,17 +168,14 @@
       text-align: center;
       font-family: georgia;
     }
-  
     .servicios_contenido5_texto {
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido6 {
       width: 100%;
     }
-  
     .servicios_contenido6_subtitulo {
       color: #71ff33;
       font-family: georgia;
@@ -190,17 +186,14 @@
       font-family: georgia;
       text-align: justify;
     }
-  
     .texto_servicios_footer {
       color: #fff;
       font-family: georgia;
       text-align: center;
     }
-  
     .a_servicios {
       color: violet;
     }
-  
     .li_logo_footer {
       list-style: none;
     }
@@ -215,23 +208,19 @@
       background-image: url(../Multimedia/portada.webp);
       background-size: cover;
     }
-  
     .items {
       display: flex;
       flex-direction: row;
     }
-  
     .imagenlogo {
       display: flex;
       width: 100px;
       height: 100px;
     }
-  
     .servicios_section {
       padding: 60px;
       background-image: url(../Multimedia/fondoindex2.jpg);
     }
-  
     .servicios_contenedor_contenido1 {
       width: auto;
     }
@@ -241,58 +230,48 @@
       text-align: center;
       align-items: center;
     }
-  
     .servicios_contenido1_texto {
       margin-top: 20px;
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido1_subtitulo2 {
       font-family: Georgia;
       align-items: center;
       text-align: center;
       color: #71ff33;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
       font-family: Georgia;
     }
-  
     .servicios_contenido1_imagen {
       width: 350px;
       align-items: center;
       text-align: center;
     }
-  
     .servicios_contenido2 {
       width: 100%;
     }
-  
     .servicios_contenido2_subtitulo {
       color: #71ff33;
       font-family: georgia;
       text-align: center;
       margin-top: 30px;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
     }
-  
     .servicios_contenido2_lista {
       color: #71ff33;
       text-align: left;
     }
-  
     .lista_contenido {
       list-style: circle;
     }
-  
     .servicios_contenido3 {
       width: 100%;
     }
@@ -300,7 +279,6 @@
       color: #71ff33;
       text-align: center;
     }
-  
     .servicios_contenido3_imagen {
       width: 500px;
       text-align: center;
@@ -311,7 +289,6 @@
       font-family: georgia;
       padding-top: 20px;
     }
-  
     .servicios_contenido4 {
       width: 100%;
     }
@@ -325,7 +302,6 @@
       font-family: georgia;
       text-align: left;
     }
-  
     .servicio_contenido5 {
       width: 100%;
     }
@@ -334,17 +310,14 @@
       text-align: center;
       font-family: georgia;
     }
-  
     .servicios_contenido5_texto {
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido6 {
       width: 100%;
     }
-  
     .servicios_contenido6_subtitulo {
       color: #71ff33;
       font-family: georgia;
@@ -355,17 +328,14 @@
       font-family: georgia;
       text-align: justify;
     }
-  
     .texto_servicios_footer {
       color: #fff;
       font-family: georgia;
       text-align: center;
     }
-  
     .a_servicios {
       color: violet;
     }
-  
     .li_logo_footer {
       list-style: none;
     }
@@ -380,32 +350,26 @@
       background-image: url(../Multimedia/portada.webp);
       background-size: cover;
     }
-  
     .items {
       display: flex;
       flex-direction: row;
     }
-  
     .imagenlogo {
       display: flex;
       width: 100px;
       height: 100px;
     }
-  
     .servicios_section {
-  
       width: 100%;
-        background-image: url(../Multimedia/fondoindex2.jpg);
-        background-size: cover;
-        text-align: justify;
-        justify-content: center;
+      background-image: url(../Multimedia/fondoindex2.jpg);
+      background-size: cover;
+      text-align: justify;
+      justify-content: center;
     }
-  
     .servicios_contenedor {
       align-items: center;
       text-align: center;
     }
-  
     .servicios_contenedor_contenido1 {
       width: 100%;
       align-items: center;
@@ -417,59 +381,49 @@
       text-align: center;
       align-items: center;
     }
-  
     .servicios_contenido1_texto {
       margin-top: 20px;
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido1_subtitulo2 {
       font-family: Georgia;
       align-items: center;
       text-align: center;
       color: #71ff33;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
       font-family: Georgia;
     }
-  
     .servicios_contenido1_imagen {
       width: 700px;
       align-items: center;
       text-align: center;
     }
-  
     .servicios_contenido2 {
       width: 100%;
     }
-  
     .servicios_contenido2_subtitulo {
       color: #71ff33;
       font-family: georgia;
       text-align: center;
       margin-top: 30px;
     }
-  
     .servicios_contenido1_texto2 {
       color: #71ff33;
       text-align: justify;
     }
-  
     .servicios_contenido2_lista {
       color: #71ff33;
       display: block;
       text-align: left;
     }
-  
     .lista_contenido {
       list-style: circle;
     }
-  
     .servicios_contenido3 {
       width: 100%;
     }
@@ -478,7 +432,6 @@
       text-align: center;
       margin-bottom: 20px;
     }
-  
     .servicios_contenido3_imagen {
       width: 600px;
     }
@@ -488,7 +441,6 @@
       font-family: georgia;
       padding-top: 20px;
     }
-  
     .servicios_contenido4 {
       width: 100%;
     }
@@ -503,7 +455,6 @@
       display: block;
       text-align: left;
     }
-  
     .servicio_contenido5 {
       width: 100%;
     }
@@ -512,17 +463,14 @@
       text-align: center;
       font-family: georgia;
     }
-  
     .servicios_contenido5_texto {
       color: #71ff33;
       font-family: georgia;
       text-align: justify;
     }
-  
     .servicios_contenido6 {
       width: 100%;
     }
-  
     .servicios_contenido6_subtitulo {
       color: #71ff33;
       font-family: georgia;
@@ -533,21 +481,17 @@
       font-family: georgia;
       text-align: justify;
     }
-  
     .texto_servicios_footer {
       color: #fff;
       font-family: georgia;
       text-align: center;
     }
-  
     .a_servicios {
       color: violet;
     }
-  
     footer {
       width: 100%;
     }
-  
     .li_logo_footer {
       list-style: none;
     }
@@ -558,3 +502,54 @@
     }
   }
   
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .items {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  
+  footer {
+    background-image: linear-gradient(to top violet, black);
+    background-size: cover;
+  }
+  
+  .titulo_index {
+    color: #71ff33;
+  }
+  
+  .imagenlogo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+  
+  section {
+    background-image: url(../Multimedia/fondoindex2.jpg);
+  }
+  
+ 
+  
+
+@import "index"; 
+@import "contacto";
+@import "quienes_somos";
+@import "proyectos";

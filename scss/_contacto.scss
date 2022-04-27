@@ -1,52 +1,8 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .items {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-  a:hover {
-    color: blue;
-  }
-  
-  footer {
-    background-image: linear-gradient(to top violet, black);
-    background-size: cover;
-  }
-  
-  
-  .titulo_index {
-    color:$color_titulo_principal;
-  }
-  
-  .imagenlogo {
-    display: flex;
-    width: 100px;
-    height: 100px;
-  }
-  
-  section {
-    background-image: url(../Multimedia/fondoindex2.jpg);
-  }
 @media only screen and (max-width: 468px) {
     .contacto_section {
       width: 100%;
       padding: 40px;
     }
-  
     .body_div_titulo {
       width: 100%;
       text-align: center;
@@ -58,21 +14,18 @@
       text-align: center;
       padding: 35px;
     }
-  
-    .contenidodeformulario{
+    .contenidodeformulario {
       padding: 20px;
     }
     label {
       color: #71ff33;
       font-family: georgia;
     }
-  
-    
-  
-    .boton {text-align: center;
-    margin-top: 20px;}
-  
-    .text_footer{
+    .boton {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .text_footer {
       color: #fff;
     }
   }
@@ -83,27 +36,21 @@
       background-image: url(../Multimedia/portada.webp);
       background-size: cover;
     }
-  
     .items {
       display: flex;
       flex-direction: row;
     }
-  
     .imagenlogo {
       display: flex;
       width: 100px;
       height: 100px;
     }
-  
     section {
       text-align: center;
-  
     }
     .contacto_section {
       padding: 10px;
-      
     }
-  
     .body_div_titulo {
       width: 100%;
       text-align: center;
@@ -115,39 +62,29 @@
       align-items: center;
       width: min-content;
       padding: 20px;
-     
-      
     }
-    .imput_contacto{
+    .imput_contacto {
       text-align: center;
     }
-  
-    .contenidodeformulario{
+    .contenidodeformulario {
       padding: 20px;
       text-align: center;
-  
-      
     }
     label {
       color: #71ff33;
       font-family: georgia;
-      
     }
-  
-    .titulo{
+    .titulo {
       color: #fff;
     }
-  
-    
-  
-    .boton {text-align: center;
-    margin-top: 20px;}
-  
-    .text_footer{
+    .boton {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .text_footer {
       color: #fff;
     }
   }
-  
   
   @media only screen and (min-width: 1024px) {
     .nav {
@@ -155,28 +92,22 @@
       background-image: url(../Multimedia/portada.webp);
       background-size: cover;
     }
-  
     .items {
       display: flex;
       flex-direction: row;
     }
-  
     .imagenlogo {
       display: flex;
       width: 100px;
       height: 100px;
     }
-  
     section {
       text-align: center;
-  
     }
     .contacto_section {
       padding: 10px;
-      
       text-align: center;
     }
-  
     .body_div_titulo {
       width: 100%;
       text-align: center;
@@ -186,37 +117,27 @@
     .contenedordeformulario {
       text-align: center;
       align-items: center;
-      
       padding: 20px;
-     
-      
     }
-    .imput_contacto{
+    .imput_contacto {
       text-align: center;
     }
-  
-    .contenidodeformulario{
+    .contenidodeformulario {
       padding: 20px;
       text-align: center;
-  
-      
     }
     label {
       color: #71ff33;
       font-family: georgia;
-      
     }
-  
-    .titulo{
+    .titulo {
       color: #fff;
     }
-  
-    
-  
-    .boton {text-align: center;
-    margin-top: 20px;}
-  
-    .text_footer{
+    .boton {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .text_footer {
       color: #fff;
     }
   }

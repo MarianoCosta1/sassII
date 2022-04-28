@@ -1275,3 +1275,13 @@ footer {
 
 section {
   background-image: url(../Multimedia/fondoindex2.jpg); }
+
+.titulo_index {
+  background-color: violet;
+  text-align: center;
+  font-size: 30px;
+  padding: 1rem; }
+
+.subtitulo_index {
+  background-color: aqua;
+  font-size: 25px; }

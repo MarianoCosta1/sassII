@@ -1,0 +1,49 @@
+$tamañodeimagenchica:300px;
+$tamañoimagenproyectos:350px;
+$tamañoimagenquienessomos: 350px;
+
+$tamañotitulo: 800px;
+
+
+
+
+
+
+    $estilos: (
+        color: violet,
+        centro: center,
+        tFuente: 30px,
+        1rem : 1rem
+
+    );
+
+    .titulo_index {
+        background-color: map-get($estilos, color ) ;
+        text-align: map-get($estilos, centro );
+        font-size: map-get($estilos , tFuente);
+        padding: map-get($estilos , 1rem);
+    }
+
+
+    .subtitulo_index {
+        background-color: aqua;
+        font-size: 25px;
+
+    }
+
+    .relevamiento_index{
+        @extend .subtitulo_index;
+        border:  2px solid red;
+    }
+
+   @mixin sizes ($width, $height){
+       width: $width;
+       height: $height; 
+   }
+
+   .contenedorgeneral1{
+       @include sizes (400px , 400px);
+   }
+       
+   }
+
